@@ -4,7 +4,9 @@ import java.util.HashMap;
 import java.net.URL;
 import java.net.URLConnection;
 import java.io.*;
-
+import org.jsoup.*;
+import org.jsoup.nodes.*;
+import org.jsoup.select.Elements;
 
 
 public class Spider {
